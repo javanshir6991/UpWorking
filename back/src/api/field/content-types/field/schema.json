@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fields",
+  "info": {
+    "singularName": "field",
+    "pluralName": "fields",
+    "displayName": "Field"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Field": {
+      "type": "string"
+    },
+    "jobs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::job.job",
+      "mappedBy": "field"
+    }
+  }
+}

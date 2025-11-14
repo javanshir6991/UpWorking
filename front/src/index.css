@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Start https://www.cursors-4u.com */
+* {
+    cursor: url(https://cur.cursors-4u.net/games/gam-13/gam1229.ani), url(https://cur.cursors-4u.net/games/gam-13/gam1229.png), auto !important;
+}
+
+/* End https://www.cursors-4u.com */
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

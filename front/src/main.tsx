@@ -1,0 +1,16 @@
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.tsx'
+import UseQueryProvider from './Provider/UseQueryProvider.tsx'
+import { AuthProvider } from './Context/AuthContext'
+
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <AuthProvider>
+      <UseQueryProvider>
+        <App />
+      </UseQueryProvider>
+    </AuthProvider>
+  </StrictMode>,
+)
